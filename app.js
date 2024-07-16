@@ -1,5 +1,5 @@
-import { createLayer, createState, createForm } from './node_modules/breezejs-web/breeze.js';
-import { appendElementWithListener, createElementAndAppend } from './node_modules/breezejs-web/helpers.js';
+import { createLayer, createState, createForm } from './node_modules/breezejs-web/src/breeze.js';
+import { appendElementWithListener, createElementAndAppend } from './node_modules/breezejs-web/src/helpers.js';
 
 // Layers:
 const layer1 = createLayer('layer1', 10);
@@ -27,4 +27,4 @@ buttonState.addListener((state) => {
 const form = createForm('form', layer3);
 form.addInput('firstInput', 'placeholder');
 form.addSubmit('submit', 'Submit');
-form.getDataOnSubmit();
+console.log(form.getDataOnSubmit());
