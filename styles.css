@@ -1,0 +1,14 @@
+#header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigHeader {
+    margin-top: 40px;
+}
+
+.sub {
+    font-weight: lighter;
+    padding-left: 20%;
+    padding-right: 20%;
+}
